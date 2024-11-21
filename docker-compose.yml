@@ -1,0 +1,18 @@
+services:
+  postgres:
+    image: postgres
+    restart: always
+    shm_size: 128mb
+    container_name: postgres_db
+    ports:
+      - '5432:5432'
+    # env_file: ".env"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # Persistent storage for database
+
+volumes:
+  postgres_data: {}
