@@ -10,10 +10,8 @@ Python 3.6 or later: Download and install Python from https://www.python.org/dow
 Open your terminal or command prompt and navigate to the directory where you want to clone the repository. Use 1  the git clone command followed by the repository URL: 2    
 
 ```Bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/lucasLMT/FastAPI-React-Manager.git
 ```
-
-Replace https://github.com/your-username/your-repo.git with the actual URL of your GitHub repository.
 
 2. Navigate to the Backend Folder
 
